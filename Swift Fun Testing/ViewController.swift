@@ -3,8 +3,10 @@
 //  Swift Fun Testing
 //
 //  Created by Christian Elena on 12/10/17.
-//  Copyright © 2017 ARBillionaireProject. All rights reserved.
-//
+//  Copyright © 2017 ARBillionaireProject. All rights reserved..
+
+
+// can you see the changes I have made to this commit #getwiththeGit
 
 import UIKit
 
@@ -19,6 +21,8 @@ class ViewController: UIViewController {
         if buttonCount >= 10{
             view.backgroundColor = UIColor.red
             TextLabel.text = "You hit more than 10 times!!"
+        } else if buttonCount <= 12 {
+            view.backgroundColor = UIColor.green
         }
     }
     
